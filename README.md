@@ -1,2 +1,2 @@
-# camp-nou-smartbooking
-Predictive model and seat allocation for Camp Nou.
+# Camp Nou SmartBooking
+Predictive model and seat allocation at Camp Nou.
