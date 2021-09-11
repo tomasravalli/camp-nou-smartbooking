@@ -13,7 +13,7 @@ Predictive model and seat allocation at Camp Nou.
 ## 1. Introduction <a name="introduction"></a>
 With a capacity of 99,354, Camp Nou is the biggest stadium in Europe. The Club has about 90,000 members who own a stadium seat for the entire season and who on many occasions do not attend matches. For this reason, the Club has created an official secondary market, called Seient Lliure, as a platform for these members to 'release' their seat and recover 50% of its value.
 
-![image](https://user-images.githubusercontent.com/4792886/132962391-aa9ab65c-955f-4166-a145-63800333ea55.png)
+<img src="https://user-images.githubusercontent.com/4792886/132962391-aa9ab65c-955f-4166-a145-63800333ea55.png" alt="alt text" width="300">
 
 
 ## 2. Problem <a name="problem"></a>
@@ -30,7 +30,7 @@ iii. At -9 days, the accumulated stock of 'released seats' go on sale, having a 
 iv. The last 3 days there is a peak of releases from members, but the demand can no longer absorb all of the stock.
 v. An accurate prediction would have adviced to go on sale with a total of 25,000 (virtual) seats.
 
-![image](https://user-images.githubusercontent.com/4792886/132962984-fb1e94f5-993d-48a9-8eee-fba4b9fc41f1.png)
+<img src="https://user-images.githubusercontent.com/4792886/132962984-fb1e94f5-993d-48a9-8eee-fba4b9fc41f1.png" alt="alt text" width="700">
 
 
 ## 3. Solution <a name="solution"></a>
@@ -39,14 +39,14 @@ SmartBooking is the project conceived to solve the current problem. Its 3 main a
 - Optimization of the sold seats stock: the prediction will guarantee pairs of seats in all areas of the Stadium.
 - Reliability: The customer will always have the tickets in the area indicated when making the purchase. Seat assigment will be confirmed 48 hours before the match.
 
-Smartbooking must allow an increase in ticketing revenue as a consequence of:
+Smartbooking business objective is to increase ticketing revenue as a consequence of:
 - An alignment between the Offer and the Demand at the moment in which the latter occurs.
 - An application of Dynamic Pricing strategies due to a higher timespan for commercialization.
 - Unlock the opening of new sales channels (APIs) by not having to connect to the LaLiga system.
 
 The following diagram shows the ticket sales and seat assignment flow:
 
-![image](https://user-images.githubusercontent.com/4792886/132963245-e152c0b5-7e8b-44f3-84f6-5eec09e9892c.png)
+<img src="https://user-images.githubusercontent.com/4792886/132963245-e152c0b5-7e8b-44f3-84f6-5eec09e9892c.png" alt="alt text" width="1500">
 
 
 ## 4. Data <a name="data"></a>
