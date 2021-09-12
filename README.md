@@ -1,6 +1,6 @@
 # Camp Nou SmartBooking
-Predictive model and seat allocation at Camp Nou.
-
+Predictive model and seat allocation at Camp Nou.  
+[> Press release](https://www.fcbarcelona.com/en/news/981315/fc-barcelona-promotes-an-intelligent-ticket-sales-model)
 
 # Table of contents
 1. [Introduction](#introduction)
@@ -17,7 +17,7 @@ With a capacity of 99,354, Camp Nou is the biggest stadium in Europe. About 90,0
 
 
 ## 2. Problem <a name="problem"></a>
-Currently a high percentage of the seats for matches at the Camp Nou are released in the last 72 hours before the match. Consequences are:
+Currently, on average 37% of the seats for matches at the Camp Nou are released in the last 72 hours before the match. Consequences are:
 - As there are hardly any releases by members at the time a match goes on sale, there are hardly any tickets available. Additionally, it is highly unlikely to have seats available in pairs, making sales even more difficult. Other competing secondary ticketing sites, such as Viagogo, do offer seats in pairs.
 - Match after match there is a high proportion of unsold seats left, showing an inconsistency between the real demand to attend a Camp Nou match and the final attendance reflected in the stands.
 - Specially for matches in the second half of the season, there had not been seats available until 2-3 days before the match.
