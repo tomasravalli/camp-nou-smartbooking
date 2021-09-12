@@ -11,7 +11,7 @@ Predictive model and seat allocation at Camp Nou.
 
 
 ## 1. Introduction <a name="introduction"></a>
-With a capacity of 99,354, Camp Nou is the biggest stadium in Europe. The Club has about 90,000 members who own a stadium seat for the entire season and who on many occasions do not attend matches. For this reason, the Club has created an official secondary market, called Seient Lliure, as a platform for these members to 'release' their seat and recover 50% of its value.
+With a capacity of 99,354, Camp Nou is the biggest stadium in Europe. About 90,000 of those stadium seats, are owned by members for the entire season and who on many occasions do not attend matches for different reasons. In orfer to avoid empty seats on a match day, the Club has created an official system –called Seient Lliure– as a platform for members to free up/release their seat and recover 50% of its value.
 
 <img src="https://user-images.githubusercontent.com/4792886/132962391-aa9ab65c-955f-4166-a145-63800333ea55.png" alt="alt text" width="300">
 
@@ -22,7 +22,7 @@ Currently a high percentage of the seats for matches at the Camp Nou are release
 - Match after match there is a high proportion of unsold seats left, showing an inconsistency between the real demand to attend a Camp Nou match and the final attendance reflected in the stands.
 - Specially for matches in the second half of the season, there had not been seats available until 2-3 days before the match.
 
-This fictional match serves as an example of what happens repeatedly on a typicall season:
+The following fictional match serves as an example of what happens repeatedly on a typical season:
 
 i. In -61 days (prior to the match) the available seats go on sale. This stock (8,600) is sold almost entirely in 6 days.
 ii. Between -55 and up to -10 days there is hardly any availability. The sale is closed waiting to have more seats, specially in pairs.
@@ -39,7 +39,7 @@ SmartBooking is the project conceived to solve the current problem. Its 3 main a
 - Optimization of the sold seats stock: the prediction will guarantee pairs of seats in all areas of the Stadium.
 - Reliability: The customer will always have the tickets in the area indicated when making the purchase. Seat assigment will be confirmed 48 hours before the match.
 
-Smartbooking business objective is to increase ticketing revenue as a consequence of:
+SmartBooking business objective is to increase ticketing revenue as a consequence of:
 - An alignment between the Offer and the Demand at the moment in which the latter occurs.
 - An application of Dynamic Pricing strategies due to a higher timespan for commercialization.
 - Unlock the opening of new sales channels (APIs) by not having to connect to the LaLiga system.
