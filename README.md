@@ -62,7 +62,7 @@ The prediction system can be improved in the following ways:
 - Accuracy: efforts can be made to improve release prediction, be it testing new algorithms or fine-tuning existing ones whenever possible.
 
 ### Allocation
-The allocation algorithm is the most critical in the system, and in the short term, it can be improved in the following aspects:
-- Optimization mechanisms: It is possible to consider the improvement of the optimization algorithm to increase the quality of the assignments, for example through linear or conical programming (CVXPY, OR-tools) or Simulated Annealing, frequently used in theory of graphs.
+The allocation algorithm is critical in the system, and it can be improved in the following aspects:
+- Optimization mechanisms: It is possible to consider the improvement of the optimization algorithm to increase the quality of the assignments, for example through linear or conical programming or Simulated Annealing, frequently used in theory of graphs.
 - Partial upgrades and rejections: the allocation algorithm must be modified to allow manual and partial upgrades, as well as potential rejections, without having to recompute the entire process from scratch.
-- Adaptation for the VIP algorithm: since the VIP service has a differentiated audience, the allocation priorities are different. For this reason, the objective (the quality function to be optimized) must be changed and adapted to this case.
+- Adaptation for the VIP algorithm: since the VIP service has a different audience, the allocation priorities are different. For this reason, the objective (the quality function to be optimized) must be changed and adapted to this case.
