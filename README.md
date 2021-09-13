@@ -7,7 +7,6 @@ Predictive model and seat allocation algorithm at Camp Nou.
 2. [Problem](#problem)
 3. [Solution](#solution)
 4. [Data](#data)
-5. [Future Improvements](#futureimprovements)
 
 
 ## 1. Introduction <a name="introduction"></a>
@@ -50,19 +49,26 @@ The following diagram shows the ticket sales and seat assignment flow:
 
 
 ## 4. Data <a name="data"></a>
+I. Model features
 
+| Match profile                   | Opponent                        | Sales and stock                 | Members and zones               | 
+| -------------                   | -------------                   | -------------                   | -------------                   |
+| Time, Day, Month                | Distance in points              | Local sales                     | # Releases top limit            |
+| Season of the year              | Goals for and against           | Seat release curve              | Avg. releases by zone           |
+| Competition                     | Last results                    | Ticket prices                   | Members classification by zone  |
+| Match Day #                     | Elo Ratings**                   |                                 | Member seniority                |
+| Competition Winner (Un)Known    | Trophies                        |                                 | Zone                            |   
+| Special Event*                  | # Seasons in the League         |                                 | Member to Club seats ratio      |
+| Days left to match              | Sympathy for opponent           |
+| Days available for seat release | Derby                           |
 
-## 5. Future Improvements <a name="futureimprovements"></a>
+*Player's retirement, Title Celebration
+**[The case for Elo ratings](http://clubelo.com/TheCase)
 
-### Prediction
-The prediction system can be improved in the following ways:
-- Performance: the acceleration of the execution of the predictive algorithm should be explored, with the study of its potential parallelization. This will allow multiple predictions to be run more times and concurrently as to have different prediction scenarios.
-- Risk management: overbooking risk management can be improved introducing margins of error in predictions, using Bayesian statistics or probabilistic programming.
-- Data augmentation: the inclusion of new microscopic variables will be explored variables to the model, especially those that facilitate the micro-forecast of seats. These variables refer especially to demographic data of members, their history  and the use of the app "Seient Lliure".
-- Accuracy: efforts can be made to improve release prediction, be it testing new algorithms or fine-tuning existing ones whenever possible.
+| Weather                         | External Factors                | Web and app                     |
+| -------------                   | -------------                   | -------------                   |
+| Rainfall                        | Holidays                        | Navigational data from locals   |
+| Wind                            | Holiday 'bridges'               | Users classification            |
+| Storm                           | Special days                    | Match Popularity Index          |
 
-### Allocation
-The allocation algorithm is critical in the system, and it can be improved in the following aspects:
-- Optimization mechanisms: It is possible to consider the improvement of the optimization algorithm to increase the quality of the assignments, for example through linear or conical programming or Simulated Annealing, frequently used in theory of graphs.
-- Partial upgrades and rejections: the allocation algorithm must be modified to allow manual and partial upgrades, as well as potential rejections, without having to recompute the entire process from scratch.
-- Adaptation for the VIP algorithm: since the VIP service has a different audience, the allocation priorities are different. For this reason, the objective (the quality function to be optimized) must be changed and adapted to this case.
+II. Historical data from the last five seasons
