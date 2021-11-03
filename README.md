@@ -1,16 +1,18 @@
 # Camp Nou SmartBooking
 Predictive model and seat allocation algorithm at Camp Nou.  
 [🗞️ Press release](https://www.fcbarcelona.com/en/news/981315/fc-barcelona-promotes-an-intelligent-ticket-sales-model)
+[💼 Partner Agency] (https://www.basetis.com/en/exito/smart-booking-increase-ticket-sales-thanks-capacity-forecast/)
 
 # Table of contents
 1. [Introduction](#introduction)
 2. [Problem](#problem)
 3. [Solution](#solution)
 4. [Data](#data)
+5. [Results](#results)
 
 
 ## 1. Introduction <a name="introduction"></a>
-With a capacity of 99,354, Camp Nou is the biggest stadium in Europe. About 90,000 of those stadium seats, are owned by members for the entire season and who on many occasions do not attend matches for different reasons. In orfer to avoid empty seats on a match day, the Club has created an official system –called Seient Lliure– as a platform for members to free up/release their seat and recover 50% of its value.
+The stadium capacity of a top-level sports club is generally reserved for its members. With a capacity of 99,354, Camp Nou is the biggest stadium in Europe. About 90,000 of those stadium seats, are owned by members for the entire season and who on many occasions do not attend matches for different reasons. In order to avoid empty seats on a match day, the Club has created an official system –called Seient Lliure– as a platform for members to free up/release their seat and recover 50% of its value. Now they can decide to release their seat at any time before the game in order to sell it. So, the benefits are shared between the member and the club.
 
 <img src="https://user-images.githubusercontent.com/4792886/132962391-aa9ab65c-955f-4166-a145-63800333ea55.png" alt="alt text" width="300">
 
@@ -39,9 +41,10 @@ SmartBooking is the project conceived to solve the current problem. Its 3 main a
 - Reliability: The customer will always have the tickets in the area indicated when making the purchase. Seat assigment will be confirmed 48 hours before the match.
 
 SmartBooking business objective is to increase ticketing revenue as a consequence of:
-- An alignment between the Offer and the Demand at the moment in which the latter occurs.
+- Maximize ticket sales thanks to the capacity forecast, knowing how many members will free their seats and in which area. In this way, it is possible to sell tickets in advance regardless of when the members release them.
 - An application of Dynamic Pricing strategies due to a higher timespan for commercialization.
-- Unlock the opening of new sales channels (APIs) by not having to connect to the LaLiga system.
+- Unlock the opening of cross&up-selling and new sales channels (through APIs) by being able to bridge the LaLiga systems.
+
 
 The following diagram shows the ticket sales and seat assignment flow:
 
@@ -72,3 +75,8 @@ I. Model features
 | Storm                           | Special days                    | Match Popularity Index          |
 
 II. Historical data from the last five seasons
+
+## 5. Results <a name="results"></a>
+
+· 10% More tickets sold during the season
+· 41% Increase in the average ticket value
