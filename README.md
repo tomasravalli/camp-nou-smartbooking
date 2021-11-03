@@ -78,5 +78,5 @@ II. Historical data from the last five seasons
 
 ## 5. Results <a name="results"></a>
 
-· 10% More tickets sold during the season
-· 41% Increase in the average ticket value
+- 10% More tickets sold during the season
+- 41% Increase in the average ticket value
