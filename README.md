@@ -1,6 +1,6 @@
 # Camp Nou SmartBooking
 Predictive model and seat allocation algorithm at Camp Nou.  
-[🗞️ Press release](https://www.fcbarcelona.com/en/news/981315/fc-barcelona-promotes-an-intelligent-ticket-sales-model)/
+[🗞️ Press release](https://www.fcbarcelona.com/en/news/981315/fc-barcelona-promotes-an-intelligent-ticket-sales-model)
 [💼 Agency partner](https://www.basetis.com/en/exito/smart-booking-increase-ticket-sales-thanks-capacity-forecast/)
 
 # Table of contents
